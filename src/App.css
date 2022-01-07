@@ -87,11 +87,11 @@
 
 }
 
-/* .company-logo{
+.company-logo{
 
-    length: 300px;
-    width: ;
-} */
+    height: 300px;
+    width: 300px;
+}
 
 /* Home.js */
 .home {
