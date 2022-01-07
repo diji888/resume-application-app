@@ -79,18 +79,44 @@
 
 /* JobCard.js */
 .card{
-
+    margin-left: 260px;
+    width: 55%;
+    height: 40%;
     flex: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-
 }
+
+.card{
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+
+.card:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
 .company-logo{
 
-    height: 300px;
-    width: 300px;
+    
+    border: thin transparent;
+    border-radius: 50%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.bttn{
+    left: 50px;
 }
 
 /* Home.js */
